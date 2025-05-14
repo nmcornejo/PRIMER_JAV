@@ -1,0 +1,89 @@
+header {
+    background-color: #16523b;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  footer {
+    background-color: #7dddbd;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .social-icons a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #1da1f2; /* Cambia a un color más vistoso al pasar el mouse */
+  }
+
+  body {
+    margin: 0;
+  }
+
+  nav {
+    background-color: #c4f5e4;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+nav a {
+    color: rgb(55, 68, 63);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+
+}
+nav a:hover {
+    color: #17a576;
+    background-color: white;
+}
+
+section {
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+h2 {
+    color: #1b9969;
+}
+
+button {
+    color: white;
+    background-color: #16523b;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.res {
+    color: blue;
+    font-weight:bold;
+    font-size: 30px;
+
+}
+
+.grid-container {
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: rgb(181, 250, 227);
+    padding: 10px;
+    align-content: start;
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
